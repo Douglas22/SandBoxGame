@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 0803a41537b76e54bb05a5822f1a9b06
+  productGUID: 243e646ade7f4074ba4d0e098b404516
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -630,14 +630,12 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    Collab: 1
-    UNet: 1
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 3fc5c513-e757-4f35-b51f-2e1b6dc0b3da
-  projectName: Sandbox
-  organizationId: sandbox-game
+  cloudProjectId: cd9f26cb-82af-463e-b65e-70953555fc53
+  projectName: Sandbox (1)
+  organizationId: l3uddz
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
