@@ -34,11 +34,9 @@ public class ModalPanel : MonoBehaviour {
 
 		noButton.onClick.RemoveAllListeners();
 		noButton.onClick.AddListener (noEvent);
-		noButton.onClick.AddListener (ClosePanel);
 
 		cancelButton.onClick.RemoveAllListeners();
 		cancelButton.onClick.AddListener (cancelEvent);
-		cancelButton.onClick.AddListener (ClosePanel);
 
 		this.question.text = question;
 
