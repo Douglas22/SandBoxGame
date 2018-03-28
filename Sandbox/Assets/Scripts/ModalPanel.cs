@@ -11,6 +11,7 @@ public class ModalPanel : MonoBehaviour {
 	public Button noButton;
 	public Button yesButton;
 	public GameObject modalPanelObject;
+	public GameObject classroomScheduleObject;
 
 	private static ModalPanel modalPanel;
 
@@ -31,6 +32,7 @@ public class ModalPanel : MonoBehaviour {
 		yesButton.onClick.RemoveAllListeners();
 		yesButton.onClick.AddListener (yesEvent);
 		yesButton.onClick.AddListener (ClosePanel);
+		yesButton.onClick.AddListener (DisplaySchedule);
 
 		noButton.onClick.RemoveAllListeners();
 		noButton.onClick.AddListener (noEvent);
@@ -49,5 +51,7 @@ public class ModalPanel : MonoBehaviour {
 		modalPanelObject.SetActive (false);
 	}
 
-
+	void DisplaySchedule () {
+		classroomScheduleObject.SetActive (true);
+	}
 }
