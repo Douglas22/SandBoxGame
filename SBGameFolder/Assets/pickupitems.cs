@@ -1,23 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;//for image
+using System.Collections;
+using System.Collections.Generic;
 
 public class pickupitems : MonoBehaviour {
-	//public GameObject book2;
+	
+	
+	
 	public static int xforbook2off = 1;
+	public static string itemname = " ";
 	
 	public void ExitGame() {
 		Debug.Log ("Exiting Game from book2");
 		Application.Quit ();
 	}
 	public void takebook2() {
-		Debug.Log ("took t book2");
-		//Book2 SetActive (false);
+		Debug.Log ("took item1 / book2");
 		xforbook2off  = 2;
 		Debug.Log ("took t book2" + xforbook2off );
-		//transform.Translate (1,4,0f);
-		//book2.enabled = false;
+		//itemname = "fjfdjkdjkjfk";
+		itemname = " book2 ";
 	}
 
 }
