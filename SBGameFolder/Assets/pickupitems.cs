@@ -13,6 +13,7 @@ public class pickupitems : MonoBehaviour {
 	public static string itembook3 = " ";
 	public static string itembook4 = " ";
 	public static string itemnotepad = " ";
+	public static string itempencilcase = " ";
 	
 	public void ExitGame() {
 		Debug.Log ("Exiting Game from book2");
@@ -42,5 +43,10 @@ public class pickupitems : MonoBehaviour {
 		clickitemoff  = 5;
 		Debug.Log ("took notepad " + clickitemoff );
 		itemnotepad = ", notepad";	
+	}
+	public void takepencilcase() {
+		clickitemoff  = 6;
+		Debug.Log ("took pencilcase " + clickitemoff );
+		itempencilcase = ", pencilcase";	
 	}
 }
