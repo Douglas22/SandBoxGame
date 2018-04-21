@@ -14,6 +14,6 @@ public class ListOfItemsPickedUp : MonoBehaviour
 	void Update () {
 		//Debug.Log ("test");
 		
-		ListOfItems.text = "items collected " + pickupitems.itembook1 + pickupitems.itembook2 ;
+		ListOfItems.text = "items collected " + pickupitems.itembook1 + pickupitems.itembook2 + pickupitems.itembook3 + pickupitems.itembook4;
 	}
 }

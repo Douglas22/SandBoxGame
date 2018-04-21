@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HideBook2 : MonoBehaviour {
-	public GameObject Book2;
+	//public GameObject Book2;
 	public static int clickitemoff ;
 
 	void Start (){
