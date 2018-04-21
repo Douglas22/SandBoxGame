@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HideBook2 : MonoBehaviour {
+public class HideBook1 : MonoBehaviour {
 	public GameObject Book2;
 	public static int clickitemoff ;
 
@@ -14,7 +14,7 @@ public class HideBook2 : MonoBehaviour {
 
 	void Update () {
 
-		if (  pickupitems.clickitemoff == 2){
+		if (  pickupitems.clickitemoff == 1){
 			transform.Rotate (new Vector3  (90	, 90, 90));
 			pickupitems.clickitemoff  = 0;
 		}

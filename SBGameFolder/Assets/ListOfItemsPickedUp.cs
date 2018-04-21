@@ -12,8 +12,8 @@ public class ListOfItemsPickedUp : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log ("test");
+		//Debug.Log ("test");
 		
-		ListOfItems.text = "items collected " + pickupitems.itemname ;
+		ListOfItems.text = "items collected " + pickupitems.itembook1 + pickupitems.itembook2 ;
 	}
 }
