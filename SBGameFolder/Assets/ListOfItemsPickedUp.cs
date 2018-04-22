@@ -15,6 +15,6 @@ public class ListOfItemsPickedUp : MonoBehaviour
 		//Debug.Log ("test");
 		
 		ListOfItems.text = "items collected " + pickupitems.itembook1 + pickupitems.itembook2 + pickupitems.itembook3 + pickupitems.itembook4
-		+ pickupitems.itemnotepad + pickupitems.itempencilcase;
+		+ pickupitems.itemnotepad + pickupitems.itempencilcase + pickupitems.itemlunchbox;
 	}
 }
