@@ -70,6 +70,8 @@ public class pickupitems : MonoBehaviour {
 		Book2On = Book2On - 1 ;
 		Book3On = Book3On - 1 ;
 		Book4On = Book4On - 1 ;
+		NotepadOn = NotepadOn - 1 ;
+		PencilcaseOn = PencilcaseOn - 1 ;
 		LunchboxOn = LunchboxOn - 1 ;
 		Debug.Log ("Clicked pokeball return objects" + clickitemoff );
 		
