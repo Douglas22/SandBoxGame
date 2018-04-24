@@ -17,14 +17,12 @@ public class HideLunchbox : MonoBehaviour {
 		if (  pickupitems.clickitemoff == 7 ){
 			transform.Rotate (new Vector4  (90 , 0, 0));
 			pickupitems.clickitemoff  = 0;
-			pickupitems.clickallitemon = 2;
-			//v3Current = Vector3.Lerp (90 , 90, 90);
-			//transform.eulerAngles = (90 , 90 , 90);			
-			//rotation.eulerAngles = new Vector3(90	, 90, 90);
+			pickupitems.LunchboxOn = 2;
 		}
-		else if (pickupitems.clickallitemon == 1){
+		else if (pickupitems.LunchboxOn == 1){ //pokaball takes 1 from the value of LunchboxOn you get one if it was set to 2 but not if it's set to 0
 			transform.Rotate (new Vector4  (270 , 0, 0));
-			pickupitems.clickallitemon = 0;
+			pickupitems.LunchboxOn = 0;
+			pickupitems.itemlunchbox = " ";
 		}
 
 	}

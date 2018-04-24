@@ -8,7 +8,14 @@ public class pickupitems : MonoBehaviour {
 	
 	
 	public static int clickitemoff = 0;
-	public static int clickallitemon = 0;
+	
+	public static int Book1On = 0;
+	public static int Book2On = 0;
+	public static int Book3On = 0;
+	public static int Book4On = 0;
+	public static int NotepadOn = 0;
+	public static int PencilcaseOn = 0;
+	public static int LunchboxOn = 0;
 	
 	public static string itembook1 = " ";
 	public static string itembook2 = " ";
@@ -17,7 +24,7 @@ public class pickupitems : MonoBehaviour {
 	public static string itemnotepad = " ";
 	public static string itempencilcase = " ";
 	public static string itemlunchbox = " ";
-	public static string itempokeball = " ";
+	
 	
 	public void ExitGame() {
 		Debug.Log ("Exiting Game from book2");
@@ -58,8 +65,12 @@ public class pickupitems : MonoBehaviour {
 		Debug.Log ("took lunchbox " + clickitemoff );
 		itemlunchbox = ", lunchbox";	
 	}
-		public void takepokeball() {
-		clickallitemon = clickallitemon - 1 ;
+		public void TryWrongObject() {
+		Book1On = Book1On - 1 ;
+		Book2On = Book2On - 1 ;
+		Book3On = Book3On - 1 ;
+		Book4On = Book4On - 1 ;
+		LunchboxOn = LunchboxOn - 1 ;
 		Debug.Log ("Clicked pokeball return objects" + clickitemoff );
 		
 		//HideBook4.notepadonfunction

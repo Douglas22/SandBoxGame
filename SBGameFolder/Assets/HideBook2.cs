@@ -17,7 +17,13 @@ public class HideBook2 : MonoBehaviour {
 		if (  pickupitems.clickitemoff == 2){
 			transform.Rotate (new Vector3  (90	, 90, 90));
 			pickupitems.clickitemoff  = 0;
+			pickupitems.Book2On = 2;
 		}
-		//Debug.Log ("update hidebook2 runing" +  pickupitems.clickitemoff );
+		else if (pickupitems.Book2On == 1){ 
+//clicking the wrong item takes 1 from the value of all the on intergers for the correct objects so you get one if it was set to 2 but not if it's set to 0
+			transform.Rotate (new Vector4  (270 , 0, 0));
+			pickupitems.Book2On = 0;
+			pickupitems.itembook2 = " ";
+		}
 	}
 }

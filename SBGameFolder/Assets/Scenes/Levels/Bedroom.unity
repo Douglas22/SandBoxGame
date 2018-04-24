@@ -1977,7 +1977,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 114872227567057446, guid: e4c66e63c91532e4982f678a10ea8e29,
           type: 2}
-        m_MethodName: takepokeball
+        m_MethodName: TryWrongObject
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
