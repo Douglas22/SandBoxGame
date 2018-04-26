@@ -24,7 +24,7 @@ public class BedroomModalWindow : MonoBehaviour {
 
 	//  Send to the Modal Panel to set up the Buttons and Functions to call
 	public void displayModal () {
-		modalPanel.Choice ("What do you want todo today?", TestYesFunction, TestNoFunction, TestCancelFunction);
+		modalPanel.Choice ("1st scholl day. What should I do first?", TestYesFunction, TestNoFunction, TestCancelFunction);
 	}
 
 	//  These are wrapped into UnityActions
